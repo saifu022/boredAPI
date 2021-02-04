@@ -26,7 +26,7 @@ document.getElementById('filter').addEventListener('click', function(event) {
     else {
         linkAPI =  `https://www.boredapi.com/api/activity?type=${event.target.innerText}`;
     }
-    getTask(linkAPI)
+    getTask(linkAPI);
 })
 
 document.getElementById('getTaskBtn').addEventListener('click', function() {
