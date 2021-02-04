@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bored?!!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Bored?!!!</h1>
+        <div class="card text-center">
+            <div class="card-header">
+                <h5>Dare to try this!!!</h5>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title" id="activity">activity</h2>
+                <p class="card-text" id="info">other info</p>
+                <a href="#" class="btn btn-primary" id="linkBtn" style="display: none;" target="_blank">Find more about
+                    it!</a>
+            </div>
+            <div class="card-footer text-muted" id="type">
+                Task type
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+            <button class="btn btn-primary col-md-1 dropdown-toggle my-5" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false" >Filter</button>
+            <ul class="dropdown-menu" id="filter">
+                <li><a class="dropdown-item" href="#">none</a></li>
+                <li><a class="dropdown-item" href="#">education</a></li>
+                <li><a class="dropdown-item" href="#">recreational</a></li>
+                <li><a class="dropdown-item" href="#">social</a></li>
+                <li><a class="dropdown-item" href="#">diy</a></li>
+                <li><a class="dropdown-item" href="#">charity</a></li>
+                <li><a class="dropdown-item" href="#">cooking</a></li>
+                <li><a class="dropdown-item" href="#">relaxation</a></li>
+                <li><a class="dropdown-item" href="#">music</a></li>
+                <li><a class="dropdown-item" href="#">busywork</a></li>
+            </ul>
+            <a href="#" class="btn btn-primary col-md-1 my-5" id="getPrevTaskBtn">prev task</a>
+            <a href="#" class="btn btn-primary col-md-1 my-5" id="getTaskBtn">next task</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
